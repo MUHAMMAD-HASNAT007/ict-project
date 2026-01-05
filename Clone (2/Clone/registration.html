@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="abc.css">
+    <link rel="icon" href="LOGO1.png" type="image/png">
+    <title>Document</title>
+</head>
+<body id="log-reg-page">
+    
+    <main>
+        <section>
+            <h3>New User Registration</h3>
+            <form action="login.html" method="post">
+                <label for="reg-name">Full Name:</label><br>
+                <input type="text" id="reg-name" name="reg-name"><br><br>
+
+                <label for="reg-id">Student/Staff ID:</label><br>
+                <input type="text" id="reg-id" name="reg-id"><br><br>
+
+                <label for="reg-email">Email:</label><br>
+                <input type="email" id="reg-email" name="reg-email"><br><br>
+
+                <label for="reg-role">Role:</label><br>
+                <select id="reg-role" name="reg-role">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="staff">Staff</option>
+                </select><br><br>
+
+                <label for="reg-hostel">Hostel (if any):</label><br>
+                <select id="reg-hostel" name="reg-hostel">
+                    <option value="">None</option>
+                    <option value="safari">Safari Hostel</option>
+                    <option value="bedian">Bedian Hostel</option>
+                </select><br><br>
+
+                <label for="reg-password">Password:</label><br>
+                <input type="password" id="reg-password" name="reg-password"><br><br>
+
+                <input type="submit" value="Register">
+            </form>
+
+            <p>
+                Thank You for regestration
+            </p>
+        </section>    
+    
+    </main>
+</body>
+</html>

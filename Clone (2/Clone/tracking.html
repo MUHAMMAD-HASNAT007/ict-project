@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="abc.css">
+    <link rel="icon" href="LOGO1.png" type="image/png">
+    <title>Tracking</title>
+</head>
+<body>
+     <header>
+        <h1>BNU Transport Hub</h1>
+
+        <!-- Simple navigation links to each section (15 "pages") -->
+        <nav>
+            <img src="Beaconhouse_National_University_logo (1).png" alt="Logo" class="logo">
+            <a href="home.html">Home</a> 
+            <a href="about.html">About</a> 
+            <a href="services.html">Services</a> 
+            <a href="contact.html">Contact</a> 
+            <a href="gallery.html">Gallery</a> 
+            <a href="profile.html">User Dashboard</a> 
+            <a href="drivers.html">Drivers</a> 
+            <a href="timetable.html">Timetable</a> 
+            <a href="routes.html">Route Details</a> 
+            <a href="town-tour.html">Town Tour Form</a> 
+            <a href="holiday.html">Holiday Form</a> 
+            <a href="rules.html">Rules</a> 
+            <a href="tracking.html">Live Tracking</a> 
+            <a href="notification.html" class="notification-link">
+            <span class="notification-icon">!</span>Notifications
+            <span class="notification-badge">3</span>
+            </a>
+            <a href="complaints.html">Complaints / Feedback</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+     <!-- 14. LIVE TRACKING -->
+        <section id="tracking">
+            <h2>Live Tracking</h2>
+
+            <!-- Embedded Map -->
+            <div style="width: 100%; height: 450px; margin: 20px 0;">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13600.5!2d74.3436!3d31.4504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDI3JzAxLjQiTiA3NMKwMjAnMzcuMCJF!5e0!3m2!1sen!2s!4v1234567890"
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+
+            <h3>Bus Status</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Route</th>
+                        <th>Bus Number</th>
+                        <th>Status</th>
+                        <th>Last Location</th>
+                        <th>ETA to Campus</th>
+                        <th>Occupancy</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Safari Hostel ⇔ Campus</td>
+                        <td>Bus S002</td>
+                        <td>🟢 Moving</td>
+                        <td>Near Stop 2</td>
+                        <td>10 minutes</td>
+                        <td>Medium (60%)</td>
+                    </tr>
+                    <tr>
+                        <td>Bedian Hostel ⇔ Campus</td>
+                        <td>Bus B012</td>
+                        <td>🟢 Moving</td>
+                        <td>On Main Road</td>
+                        <td>20 minutes</td>
+                        <td>High (85%)</td>
+                    </tr>
+                    <tr>
+                        <td>Behria Town Services</td>
+                        <td>Bus BT03</td>
+                        <td>🟡 Stopped</td>
+                        <td>City Point 2</td>
+                        <td>35 minutes</td>
+                        <td>Low (30%)</td>
+                    </tr>
+                    <tr>
+                        <td>DHA Services</td>
+                        <td>Bus DHA10</td>
+                        <td>🟢 Moving</td>
+                        <td>Phase 5, DHA</td>
+                        <td>28 minutes</td>
+                        <td>Medium (55%)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Planned Features</h3>
+            <ul>
+                <li>Real-time map with GPS locations of buses.</li>
+                <li>Delay / cancellation alerts.</li>
+                <li>Simple ETA calculator based on live data.</li>
+                <li>Weather-based updates if roads are blocked.</li>
+                <li>Emergency button to quickly contact transport office.</li>
+            </ul>
+
+            <hr>
+        </section>
+    </main>
+</body>
+</html>

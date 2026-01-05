@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="abc.css">
+    <link rel="icon" href="LOGO1.png" type="image/png">
+    <title>complaints</title>
+</head>
+<body>
+    
+     <header>
+        <h1>BNU Transport Hub</h1>
+
+        <!-- Simple navigation links to each section (15 "pages") -->
+        <nav>
+            <img src="Beaconhouse_National_University_logo (1).png" alt="Logo" class="logo">
+            <a href="home.html">Home</a> 
+            <a href="about.html">About</a> 
+            <a href="services.html">Services</a> 
+            <a href="contact.html">Contact</a> 
+            <a href="gallery.html">Gallery</a> 
+            <a href="profile.html">User Dashboard</a> 
+            <a href="drivers.html">Drivers</a> 
+            <a href="timetable.html">Timetable</a> 
+            <a href="routes.html">Route Details</a> 
+            <a href="town-tour.html">Town Tour Form</a> 
+            <a href="holiday.html">Holiday Form</a> 
+            <a href="rules.html">Rules</a> 
+            <a href="tracking.html">Live Tracking</a> 
+            <a href="notification.html" class="notification-link">
+            <span class="notification-icon">!</span>Notifications
+            <span class="notification-badge">3</span>
+            </a>
+            <a href="complaints.html">Complaints / Feedback</a>
+        </nav>
+        <hr>
+    </header>   
+
+    <main>
+        <!-- 15. COMPLAINT / FEEDBACK SYSTEM -->
+        <section id="complaints">
+            <h2>Complaint / Feedback System</h2>
+
+            <p>
+                Use this form to report issues, give suggestions, or rate services.
+            </p>
+
+            <form action="#" method="post">
+                <label for="comp-name">Name <small style="color: grey;">(optional):</small></label><br>
+                <input type="text" id="comp-name" name="comp-name"><br><br>
+
+                <label for="comp-id">Student/Staff ID <small style="color: grey;">(optional):</small></label><br>
+                <input type="text" id="comp-id" name="comp-id"><br><br>
+
+                <label for="comp-type">Type of Feedback:</label><br>
+                <select id="comp-type" name="comp-type">
+                    <option value="complaint">Complaint</option>
+                    <option value="suggestion">Suggestion</option>
+                    <option value="praise">Appreciation</option>
+                </select><br><br>
+
+                <label for="comp-route">Related Route (if any):</label><br>
+                <input type="text" id="comp-route" name="comp-route"><br><br>
+
+                <label for="comp-details">Details:</label><br>
+                <textarea id="comp-details" name="comp-details" rows="4" cols="40"></textarea><br><br>
+
+                <label for="comp-rating">Service Rating (1 to 5):</label><br>
+                <input type="number" id="comp-rating" name="comp-rating" min="1" max="5"><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+
+            <h3>Complaint Status</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Complaint ID</th>
+                        <th>Date</th>
+                        <th>Type</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>C-001</td>
+                        <td>01-04-2025</td>
+                        <td>Overcrowding</td>
+                        <td>Under Review</td>
+                    </tr>
+                    <tr>
+                        <td>C-002</td>
+                        <td>03-04-2025</td>
+                        <td>Late Arrival</td>
+                        <td>Resolved</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>FAQ (Common Questions)</h3>
+            <ul>
+                <li>How do I get a transport pass?</li>
+                <li>Where can I see updated timetables?</li>
+                <li>How do I report a lost item?</li>
+                <li>How can I request a new bus stop?</li>
+            </ul>
+
+            <hr>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© By Muhammad Junaid Khan</p>
+    </footer>
+
+</body>
+</html>

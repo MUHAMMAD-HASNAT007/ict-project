@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="abc.css">
+    <link rel="icon" href="LOGO1.png" type="image/png">
+    <title>Towm-tour form</title>
+</head>
+<body>
+     <header>
+        <h1>BNU Transport Hub</h1>
+
+        <!-- Simple navigation links to each section (15 "pages") -->
+        <nav>
+            <img src="Beaconhouse_National_University_logo (1).png" alt="Logo" class="logo">
+            <a href="home.html">Home</a> 
+            <a href="about.html">About</a> 
+            <a href="services.html">Services</a> 
+            <a href="contact.html">Contact</a> 
+            <a href="gallery.html">Gallery</a> 
+            <a href="profile.html">User Dashboard</a> 
+            <a href="drivers.html">Drivers</a> 
+            <a href="timetable.html">Timetable</a> 
+            <a href="routes.html">Route Details</a> 
+            <a href="town-tour.html">Town Tour Form</a> 
+            <a href="holiday.html">Holiday Form</a> 
+            <a href="rules.html">Rules</a> 
+            <a href="tracking.html">Live Tracking</a> 
+            <a href="notification.html" class="notification-link">
+            <span class="notification-icon">!</span>Notifications
+            <span class="notification-badge">3</span>
+            </a>
+            <a href="complaints.html">Complaints / Feedback</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+     <!-- 11. TOWN TOUR FORM -->
+        <section id="town-tour">
+            <h2>Town Tour Form</h2>
+
+            <p>
+                Please submit your Town Tour application via this portal. All requests are subject to vehicle availability and compliance with University transport protocols.
+            </p>
+
+            <form action="#" method="post">
+                <label for="tour-name">Applicant Name:</label><br>
+                <input type="text" id="tour-name" name="tour-name"><br><br>
+
+                <label for="tour-id">Student/Staff ID:</label><br>
+                <input type="text" id="tour-id" name="tour-id"><br><br>
+
+                <label for="tour-dept">Department:</label><br>
+                <input type="text" id="tour-dept" name="tour-dept"><br><br>
+
+                <label for="tour-date">Requested Date:</label><br>
+                <input type="date" id="tour-date" name="tour-date"><br><br>
+
+                <label for="tour-destination">Destination / Area:</label><br>
+                <input type="text" id="tour-destination" name="tour-destination"><br><br>
+
+                <label for="tour-reason">Reason for Tour:</label><br>
+                <textarea id="tour-reason" name="tour-reason" rows="4" cols="40"></textarea><br><br>
+
+                <label for="tour-terms">
+                    <input type="checkbox" id="tour-terms" name="tour-terms">
+                    I agree to follow all transport rules and accept terms &amp; conditions.
+                </label><br><br>
+
+                <input type="submit" value="Submit Town Tour Request">
+            </form>
+
+            <hr>
+        </section>
+    </main>
+</body>
+</html>
